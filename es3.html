@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NEWSLETTER</title>
+    <style>
+        body{
+            font-family: Arial, Verdana, sans-serif;
+
+            color: #665644;
+        }
+        input[type=submit]{
+            color: white;
+            height:30px;
+            background-color: #665644;
+            border-radius: 3px;
+            width: 180px;
+            margin-left: 116px;
+        }
+        input#name,input#email
+        {
+            border: none;
+            border-bottom-style: dotted;
+            border-color: #e4e4e4;
+            color: #665644;
+        }
+        fieldset{
+            width:30%;
+            border-radius: 7px;
+        }
+        input:focus{
+            border: 1px dotted #dcdcdc;
+            outline : none;
+        }
+        legend {
+            background-color: #eeeeee;
+            padding: 5px 10px;
+            height: 25px;
+            width: 120px;
+            padding-top:14px;
+            padding-left: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>NEWSLETTER</legend>
+        <p>
+            <label for="name">Name:</label>
+             <input type="text" size="30" id="name">
+        </p>
+        <p>
+            <label for="email">Email :</label>
+            <input type="email" size="30" id="email">
+        </p>
+        <input type="submit" value="SUBSCRIBE">
+
+    </fieldset>
+</body>
+</html>

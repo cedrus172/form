@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Poetry Workshops</title>
+    <style>
+        body{
+            font-family: Arial, Verdana, sans-serif;
+            color: #666666;
+        }
+        th{
+            border-bottom: #577fa3 solid 1px;
+            height : 25px;
+        }
+        ul {
+            list-style-image: url('images/icon-plus.png');
+        }
+        li
+        {
+            padding-top:3px;
+
+        }
+        table{
+            border : white solid 1px;
+            border-radius: 5px;
+            width:800px;
+            background-color: #7b99ba;
+        }
+        #cedrus th{
+            background-color: #8fb3d5;
+            color: #fdfdfe;
+            text-shadow: -1px -1px #666666;
+
+        }
+        tr.even{
+            background-color: #dfe8ef;
+        }
+        tr:hover{
+            background-color: #c2e5e4;
+        }
+        tr{
+            background-color: #e7eef4;
+
+        }
+        #cedrus td {
+            padding: 5px 5px 5px 5px;
+        }
+        #register
+        {
+            background-color: #009866;
+            border-radius: 2px;
+            border: none;
+            height: 20px;
+            width: 70px;
+            color: white;
+            margin-left: 280px;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Poetry Workshops</h1>
+
+<p>We will be conducting a number of poetry workshops and symposiums
+throughtout the year.</p>
+
+<p>Please note that the folowwing event are free to members.</p>
+
+<p>
+<ul>
+    <li>A Poetic Perspective</li>
+    <li>Walt Whitman at War</li>
+    <li>Found Poems and Outsider Poetry</li>
+</ul>
+</p>
+
+<table id="cedrus">
+    <tr>
+        <th></th>
+        <th>New York</th>
+        <th>Chicago</th>
+        <th>San Francisco</th>
+    </tr>
+    <tr class="even">
+        <td><b>A Poetic Perspective</b></td>
+        <td>Sat, 4 Feb 2012<br>11am -2pm</td>
+        <td>Sat, 3 Mar 2012<br>11am -2pm</td>
+        <td>Sat, 17 Mar 2012<br>11am - 2pm</td>
+    </tr>
+    <tr>
+        <td><b>Walt Whitman at War</b></td>
+        <td>Sat, 7 Apr 2012<br>11am - 1pm</td>
+        <td>Sat, 5 May 2012<br>11am - 1pm</td>
+        <td>Sat, 19 May 2012<br>11am - 2pm</td>
+    </tr>
+    <tr class="even">
+        <td><b>Found Poems & Outsider Poetry</b></td>
+        <td>Sat, 9 Jun 2012<br>11am - 2pm</td>
+        <td>Sat, 7 Jul 2012<br>11am - 2pm</td>
+        <td>Sat, 21 Jul 2012<br>11am - 2pm</td>
+    </tr>
+    <tr>
+        <td><b>Natural Death: An Exploration</b></td>
+        <td>Sat, 4 Aug 2012<br>11am - 4pm</td>
+        <td>Sat, 8 Sep 2012<br>11am - 4pm</td>
+        <td>Sat, 15 Sep 2012<br>11am - 4pm</td>
+    </tr>
+</table>
+<p>
+<fieldset style="width:350px">
+    <legend><i>Register your interest</i></legend>
+    <p>Your name : <input style="margin-left: 70px" type="text"></p>
+    <p>Your email : <input style="margin-left: 71px" type="text"></p>
+    <p>
+        Your closest center:
+        <select style="margin-left: 14px" name="city" id="city">
+        <option value="New York">New York</option>
+        <option value="Ha Noi">Ha Noi</option>
+    </select>
+    </p>
+    <p>Are you a member?
+        <input type="radio" name="member" value="yes">Yes
+        <input type="radio" name="member" value="no">No
+    </p>
+</fieldset>
+<br>
+    <input type="submit" name="register" id="register" value="Register">
+</p>
+</body>
+</html>
